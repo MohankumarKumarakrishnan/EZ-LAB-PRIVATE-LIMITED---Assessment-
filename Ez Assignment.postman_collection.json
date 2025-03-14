@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "ef082735-db01-484a-a99d-518c6c4869fc",
+		"name": "Ez Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35281155"
+	},
+	"item": [
+		{
+			"name": "POST-EZ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "bhavya@ez.works",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://3.228.97.110:9000/api",
+					"protocol": "http",
+					"host": [
+						"3",
+						"228",
+						"97",
+						"110"
+					],
+					"port": "9000",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Success - EZ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "bhavya@abc.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://3.228.97.110:9000/api",
+					"protocol": "http",
+					"host": [
+						"3",
+						"228",
+						"97",
+						"110"
+					],
+					"port": "9000",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

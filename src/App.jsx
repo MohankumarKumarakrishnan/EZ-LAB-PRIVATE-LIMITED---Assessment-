@@ -99,7 +99,7 @@ const App = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...
           </p>
 
-          {/* Desktop Form */}
+          
           <form onSubmit={handleSubmit}>
             <div className="email-container desktop">
               <input
@@ -115,7 +115,7 @@ const App = () => {
             </div>
           </form>
 
-          {/* Display Message/Error */}
+         
           {error && <p style={{ color: "red", marginTop: "0.5rem" }}>{error}</p>}
           {message && <p style={{ color: "green", marginTop: "0.5rem" }}>{message}</p>}
         </div>
